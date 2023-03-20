@@ -9,7 +9,12 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <UI003 />
+    <UI003
+      borderRadius={16}
+      imageUrl={
+        "https://s3.ap-northeast-2.amazonaws.com/com.washswat.assets/app/userapp2.0/Order/washbag_3x.png"
+      }
+    />
   </React.StrictMode>
 );
 
