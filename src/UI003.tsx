@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 type Props = {
   id?: string;
-  imageUrl?: string | undefined;
+  imageUrl?: string;
   borderRadius?: number;
 };
 
